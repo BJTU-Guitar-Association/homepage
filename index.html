@@ -1112,12 +1112,13 @@
         <h2>版块导航</h2>
         <div class="toc">
           <p class="toc-hint">点击下方磁贴即可跳转到对应板块的独占页面，点击页面内「← 回到顶部」可回到此处。</p>
-          <p class="toc-hint">本站主要面向吉协正式成员和老成员，供以了解吉协活动记录、历史乐队信息、社团运行流程等。</p>
+          <p class="toc-hint">本站主要面向吉协正式成员，供以了解吉协活动记录、历史乐队信息、社团活动安排等。</p>
           <div id="menuRoot"></div>
         </div>
         <div class="toc-actions">
           <button type="button" id="btnShowAll" style="display:none;">展开全部</button>
           <button type="button" id="btnCollapseAll" style="display:none;">折叠全部</button>
+          <a class="member-entry" href="https://bjtu-guitar-association.github.io/adm-only/" target="_blank" rel="noopener" title="非管理人员勿点" style="display:inline-flex;align-items:center;padding:8px 18px;border-radius:999px;background:linear-gradient(135deg,#4e8ef7,#6c63ff);color:#fff;text-decoration:none;font-size:0.9rem;box-shadow:0 6px 16px rgba(78,142,247,0.28);">管理员入口</a>
         </div>
         <div class="index-search" style="margin-top:16px;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -1135,7 +1136,6 @@
     <!-- 页面容器：以下板块通过磁贴点击独占切换显示 -->
     <div class="page-container" id="pageContainer">
 
-    <!-- 1. 乐队档案 -->
     <section class="card block" id="bands" data-icon="🎤" data-desc="历届乐队介绍">
       <div class="card-content">
         <h2>乐队档案</h2>
@@ -1150,7 +1150,7 @@
             <!-- 在这里填写前言内容 -->
             <p>本部分内容来自北交吉协2014年至今的公众号文章及部分访谈记录。受限于资料来源，
               我们难以仅凭现有材料完整还原所有曾在北交活动过的乐队及其相关信息。因此，部分早期乐队乃至近年新组建的乐队，其介绍难免存在一定偏差或资料缺失。
-              若读者发现文中任何错误或不足之处，敬请联系网站维护人员（邮箱见通讯录📇）或吉协内部相关人员。我们衷心感谢读者的批评与指正。</p>
+              若读者发现文中任何错误或不足之处，敬请联系网站维护人员或吉协内部相关人员。我们衷心感谢读者的批评与指正。</p>
           </div>
         </div>
         <details class="chapter" id="bands-list">
@@ -1959,7 +1959,6 @@
       </section>
     </section>
 
-    <!-- 2. 画廊 -->
     <section class="card block" id="gallery" data-icon="🖼️" data-desc="活动照片集锦">
       <div class="card-content">
         <h2>画廊</h2>
@@ -1967,553 +1966,23 @@
       </div>
     </section>
 
-    <!-- 3. 活动 -->
-    <section class="card block" id="events" data-icon="🎸" data-desc="场地 / 宣传 / 内容 / 准备与现场 / 善后">
+    <section class="card block" id="daily" data-icon="🏠" data-desc="预约表 / 音箱使用说明 / 吉他课 / 演出活动">
       <div class="card-content">
-        <h2>活动流程</h2>
-        <p>为保证每学期社团能有两次集中活动，一般来说上半期百团前办一个路演，百团后可根据情况办一个专场；下半期四月办路演，五月办专场。其中，专场规模&gt;路演规模。</p>
-        <p>专场和路演都要至少提前一个月进行规划和准备。在确定具体日期时，需要考虑成员们的空余时间，避开月考和半期，尽量安排在周末。</p>
+        <h2>社团活动</h2>
       </div>
       <section class="document-outline">
 
-      <!-- 1. 活动组成 -->
-      <details class="chapter" id="sec-1">
-        <summary>活动组成</summary>
-        <div class="chapter-body">
-          <p>为保证每学期社团能有两次集中活动，一般来说上半期百团前办一个路演，百团后可根据情况办一个专场；下半期四月办路演，五月办专场。其中，专场规模&gt;路演规模。</p>
-          <p>专场和路演都要至少提前一个月进行规划和准备。在确定具体日期时，需要考虑成员们的空余时间，避开月考和半期，尽量安排在周末。</p>
-
-          <details class="section" id="sec-11">
-            <summary>场地</summary>
+          <details class="section" id="sec-42">
+            <summary>预约表</summary>
             <div class="section-body">
-              <img class="img" src="assets/images/image1.png" alt="活动场地分布示意">
-              <details class="subsection" id="sec-111">
-                <summary>小树林/斗兽场</summary>
-                <div class="subsection-body">
-                  <ul>
-                    <li>小树林：离主区南门最近，在九教和排球场之间，好处是可以任意朝向，相当于露天no stage。<br><img class="img" src="assets/images/image2.jpg" alt="小树林场地"></li>
-                    <li>斗兽场：离主区西门最近，在西餐厅东北方向，西操南侧，学活坑西北方向，形似斗兽场，好处是露天可以吸引路人，而且路人可以坐着看。<br><img class="img" src="assets/images/image3.jpg" alt="斗兽场场地"></li>
-                  </ul>
-                </div>
-              </details>
-              <details class="subsection" id="sec-112">
-                <summary>小剧场</summary>
-                <div class="subsection-body">
-                  <p>学活三楼302，顾名思义，是一个小舞台，容纳150人左右，好处是有灯光、声音更聚集、在室内不用考虑天气，是一般社团能申请到的最正式的场地。</p>
-                  <img class="img" src="assets/images/image4.jpg" alt="小剧场">
-                </div>
-              </details>
-              <details class="subsection" id="sec-113">
-                <summary>天佑会堂</summary>
-                <div class="subsection-body">
-                  <p>位于排球场北面，是一座单独的建筑，小剧场能有的，天佑会堂只会更好。但是考虑吉协受众和财力，没什么必要申请这个。</p>
-                  <img class="img" src="assets/images/image5.jpg" alt="天佑会堂">
-                </div>
-              </details>
+              <p>吉协的社团性质决定了我们需要供乐队成员练习和排练的空间，也就是活动室。我们的活动室已由嘉园地下室A28-40转变为学活505，从专属活动室转变为和学校其它社团的共用活动室。</p>
+              <p>吉协坚持为每一个热爱音乐的成员提供便利，奈何时间和空间都是有限的，所以排练室施行每周一开放<!--小程序-->统一预约，供各队负责人查看和预约合适且空闲的时间。</p>
+              <!-- <p> <a href="https://example.com">小程序预约</a>二维码：<br><img src="assets/linked%20Document/学活505预约表.png" alt="学活505预约表" width="200"></p> -->
+              <p>小程序使用：每位成员都需要在小程序上注册账号，之后注册队伍，由队长拉人完成队伍的注册。在管理员审核通过后，即可在预约界面查看并预约排练室空闲时间。我们强烈建议每支队伍将已经排好的歌曲同步在小程序上，方便演出的规划。</p>
+              <p>目前（9月12日），小程序尚未完全准备好。因此在正式通知之前，我们将使用旧的预约表。</p>
+              <p>为避免人数过多过杂，我们采取的措施是每个队仅出一人进入排练室预约群，且只有经过排练室负责人审核的队负责人能在小程序预约，尽可能确保大家都能公平有序进行预约和排练，达到最大利用率。</p>
             </div>
           </details>
-
-          <details class="section" id="sec-12">
-            <summary>宣传</summary>
-            <div class="section-body">
-              <p>希望可以一直认真宣传、大力宣传、线上线下结合宣传，各种物料都坚决不使用ai，负责人有义务寻找2-3名合适（符合吉协调性）的、可以长期做宣传内容创作的人员。每篇原创推送的末尾都需要给这些工作人员署名。</p>
-              <details class="subsection" id="sec-121">
-                <summary>海报</summary>
-                <div class="subsection-body">
-                  <p>海报内容需要包括：</p>
-                  <ul>
-                    <li>标题（吉协招新/路演/专场，或者起个名字）</li>
-                    <li>日期</li>
-                    <li>地点</li>
-                  </ul>
-                  <p>如果是招新海报，还需要附上：</p>
-                  <ul>
-                    <li>招新群二维码（必选）</li>
-                    <li>公众号二维码（可选）</li>
-                  </ul>
-                  <figure class="example">
-                    <figcaption>示例</figcaption>
-                    <div class="gallery">
-                      <img src="assets/images/image6.jpg" alt="海报示例1">
-                      <img src="assets/images/image7.jpg" alt="海报示例2">
-                      <img src="assets/images/image8.jpg" alt="海报示例3">
-                    </div>
-                    <div class="gallery">
-                      <img src="assets/images/image9.jpg" alt="海报示例4">
-                      <img src="assets/images/image10.jpg" alt="海报示例5">
-                    </div>
-                  </figure>
-                </div>
-              </details>
-              <details class="subsection" id="sec-122">
-                <summary>公众号推文</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-1221">
-                    <summary>招新推文</summary>
-                    <div class="sub4-body">
-                      <p>由于是面向新生，内容包括但不限于：</p>
-                      <ul>
-                        <li>海报</li>
-                        <li>吉协概况</li>
-                        <li>基本活动</li>
-                        <li>历史沿革</li>
-                        <li>乐队介绍</li>
-                      </ul>
-                      <p>必要处可附上小程序/超链接，从文字/图片/音频/视频全方位展示，末尾处放招新群二维码。发布时间应在百团前一周左右（百团时间一般为国庆前后）。附上此网站的链接也是比较好的。</p>
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><a href="https://mp.weixin.qq.com/s/g8s_eEN4fDjJfOlFjrYLDA">https://mp.weixin.qq.com/s/g8s_eEN4fDjJfOlFjrYLDA</a></p>
-                      </figure>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-1222">
-                    <summary>活动推文</summary>
-                    <div class="sub4-body">
-                      <p>活动一般就是前面提到的路演/专场，需要两篇推送同时发布。一篇是展示活动主题和节目单，文案可以风格化一点；另一篇是演出乐队名单，需要包括：</p>
-                      <ul>
-                        <li>队名</li>
-                        <li>照片</li>
-                        <li>介绍</li>
-                        <li>成员</li>
-                      </ul>
-                      <p>同时，也可以开展一些其它不用申请的小活动，比如效法古制的：</p>
-                      <ul>
-                        <li>乐手见面会</li>
-                        <li>指弹大会</li>
-                        <li>酒友会</li>
-                        <li>吉他角</li>
-                      </ul>
-                      <p>或者创造一些新的活动，进行小范围的宣传。</p>
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><strong>活动</strong></p>
-                        <ul>
-                          <li><a href="https://mp.weixin.qq.com/s/kQwBuN50zdHIlM7AMf2GCw">https://mp.weixin.qq.com/s/kQwBuN50zdHIlM7AMf2GCw</a></li>
-                          <li><a href="https://mp.weixin.qq.com/s/f03vHt6fu5X1PRDZPrp5Nw">https://mp.weixin.qq.com/s/f03vHt6fu5X1PRDZPrp5Nw</a></li>
-                        </ul>
-                        <p><strong>乐队介绍</strong></p>
-                        <ul>
-                          <li><a href="https://mp.weixin.qq.com/s/a7Jkory7Cs6KhbBMqSB-ow">https://mp.weixin.qq.com/s/a7Jkory7Cs6KhbBMqSB-ow</a></li>
-                          <li><a href="https://mp.weixin.qq.com/s/cok87WumqNcSCpCSZ5Xh0Q">https://mp.weixin.qq.com/s/cok87WumqNcSCpCSZ5Xh0Q</a></li>
-                        </ul>
-                      </figure>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-1223">
-                    <summary>其它推文</summary>
-                    <div class="sub4-body">
-                      <p>吉协乐队的校外演出转推、活动记录、音乐分享、活动变更等，灵活发布。</p>
-                    </div>
-                  </details>
-                </div>
-              </details>
-            </div>
-          </details>
-
-          <details class="section" id="sec-13">
-            <summary>内容</summary>
-            <div class="section-body">
-              <details class="subsection" id="sec-131">
-                <summary>乐队</summary>
-                <div class="subsection-body">
-                  <p>负责人需在活动举办前至少两周时统计好参演乐队及曲目，收集宣传需要用到的各个乐队的介绍，可以将每个队的队长拉进演出工作群，在工作群中，负责人需：</p>
-                  <ul>
-                    <li>统计每个乐队能演出的具体时间段，并据此对演出顺序进行排序，将顺序及时在工作群中跟进，以便协商和调整；</li>
-                    <li>统计每个乐队的配置，如几把琴、几个话筒等，以便演出当天的设备准备充分而不会有缺漏。</li>
-                  </ul>
-                  <p>如果遇到不同的队要演同一首歌曲，导致出现重复的情况，需要告知这几个队，自行协商换曲目或者都演。如果都想演，需要合理安排出场顺序，不要连在一起。</p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-132">
-                <summary>曲目</summary>
-                <div class="subsection-body">
-                  <p>当前国际形势较为动荡，北交又为首都高校，文化艺术活动难免受到波及。因此，负责人需确认节目单中有无任何敏感内容。若有，需及时与该乐队协商，并对节目单进行调整，附上歌词，交与相关审核部门。</p>
-                  <figure class="example">
-                    <figcaption>示例</figcaption>
-                    <p><a class="file" href="assets/linked%20Document/1122节目单.xls" download>1122节目单.xls</a></p>
-                    <p><a class="file" href="assets/linked%20Document/歌词.docx" download>歌词.docx</a></p>
-                  </figure>
-                </div>
-              </details>
-            </div>
-          </details>
-
-          <details class="section" id="sec-14">
-            <summary>准备与现场</summary>
-            <div class="section-body">
-              <details class="subsection" id="sec-141">
-                <summary>设备</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-1411">
-                    <summary>搬运</summary>
-                    <div class="sub4-body">
-                      <p>大多数情况下需要租三轮车，且需要使用不止一趟。租车地点为嘉园楼下/19号楼下，按次数或按时间收费。</p>
-                      <p>虽然有三轮车，搬各种设备仍然需要人力，对此并不方便进行硬性规定。此时需要负责人有一定的号召力，同时也要让社员认识到人越多，搬的越快、越轻松的道理。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-1412">
-                    <summary>接电</summary>
-                    <div class="sub4-body">
-                      <p>如果是在室外举办活动，需要在活动审批结束后，带着社团自留的、盖完章的活动申请表去水电中心填表登记所需功率一类，提前2天给水电中心的师傅打电话（去水电中心的时候那边会告知师傅电话）约定演出当天的接线时间，确保演出能接电、不断电。</p>
-                      <div class="steps">
-                        <div class="step">
-                          <p>水电中心由图书馆东北角（18号楼南侧）的小院子进去，</p>
-                          <img class="img" src="assets/images/image11.jpg" alt="水电中心入口1">
-                        </div>
-                        <div class="step">
-                          <p>左转上二楼往里走倒数第二个门进入，一般下午才上班</p>
-                          <img class="img" src="assets/images/image12.jpg" alt="水电中心入口2">
-                        </div>
-                      </div>
-                    </div>
-                  </details>
-                </div>
-              </details>
-              <details class="subsection" id="sec-142">
-                <summary>灯光</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-1421">
-                    <summary>室外</summary>
-                    <div class="sub4-body">
-                      <p>吉协自己有变色灯，为了演出效果更好，会去找位于射箭馆的鲁大兴老师借补光灯搭配使用。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-1422">
-                    <summary>室内</summary>
-                    <div class="sub4-body">
-                      <p>小剧场有较为完善的灯光系统，如果准备充分可以达到很不错的灯光效果：</p>
-                      <ul>
-                        <li>在统计演出曲目时收集每首歌的灯光要求（颜色/速度，如果更细致可以在歌词上标注）；</li>
-                        <li>将排好顺序的曲目做成歌单，并按顺序打印所有灯光要求；</li>
-                        <li>提前3-4天带着社团自留一份的申请表和打印出的灯光要求，去小剧场中控室找灯光师傅协商，把做好的歌单和灯光要求都发给当天值班的灯光师傅。灯光师傅同时也负责小剧场的开门事宜；</li>
-                        <li>彩排当天需要有对节目单比较熟悉的负责人全程在中控和灯光师傅及时沟通。</li>
-                      </ul>
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><a class="file" href="assets/linked%20Document/20251122专场灯光.docx" download>20251122专场灯光.docx</a></p>
-                      </figure>
-                    </div>
-                  </details>
-                </div>
-              </details>
-              <details class="subsection" id="sec-143">
-                <summary>彩排</summary>
-                <div class="subsection-body">
-                  <p>只有小剧场需要彩排。负责人需在统计节目时也将彩排顺序排出来，彩排的目的是踩点、试音和方便师傅编写灯光。所以在申请小剧场时需要申请至少一整天的时间。演出当天的白天全部用于彩排。</p>
-                  <figure class="example">
-                    <figcaption>示例</figcaption>
-                    <p><a class="file" href="assets/linked%20Document/彩排.xlsx" download>彩排.xlsx</a></p>
-                  </figure>
-                </div>
-              </details>
-              <details class="subsection" id="sec-144">
-                <summary>拍摄</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-1441">
-                    <summary>拍照</summary>
-                    <div class="sub4-body">
-                      <p>如果能有多机位是最好，这样可以打配合，同时拍出不同的角度（正/侧/俯/仰/背）。</p>
-                      <p>理想的照片集应包括但不限于：</p>
-                      <ol>
-                        <li class="photo-item">
-                          <strong>每个队表演的群像</strong>
-                          <div class="gallery">
-                            <img src="assets/images/image13.jpg" alt="群像示例1">
-                            <img src="assets/images/image14.jpg" alt="群像示例2">
-                          </div>
-                          <div class="gallery">
-                            <img src="assets/images/image15.jpg" alt="群像示例3">
-                            <img src="assets/images/image16.jpg" alt="群像示例4">
-                          </div>
-                        </li>
-                        <li class="photo-item">
-                          <strong>每名乐手的特写</strong>
-                          <div class="gallery">
-                            <img src="assets/images/image17.jpg" alt="特写示例1"><img src="assets/images/image18.jpg" alt="特写示例2">
-                            <img src="assets/images/image19.jpg" alt="特写示例3"><img src="assets/images/image20.jpg" alt="特写示例4">
-                            <img src="assets/images/image21.jpg" alt="特写示例5"><img src="assets/images/image22.jpg" alt="特写示例6">
-                          </div>
-                          <div class="gallery">
-                            <img src="assets/images/image23.jpg" alt="特写示例7">
-                            <img src="assets/images/image24.jpg" alt="特写示例8">
-                            <img src="assets/images/image25.jpg" alt="特写示例9">
-                          </div>
-                        </li>
-                        <li class="photo-item">
-                          <strong>有观众有表演者的整体现场照</strong>
-                          <div class="gallery">
-                            <img src="assets/images/image26.jpg" alt="现场照示例1">
-                            <img src="assets/images/image27.jpg" alt="现场照示例2">
-                          </div>
-                          <div class="gallery">
-                            <img src="assets/images/image28.jpg" alt="现场照示例3">
-                            <img src="assets/images/image29.jpg" alt="现场照示例4">
-                          </div>
-                        </li>
-                        <li class="photo-item">
-                          <strong>后台/中控/观众席抓拍</strong>
-                          <div class="gallery">
-                            <img src="assets/images/image30.jpg" alt="抓拍示例1">
-                            <img src="assets/images/image31.jpg" alt="抓拍示例2">
-                          </div>
-                          <div class="gallery">
-                            <img src="assets/images/image32.jpg" alt="抓拍示例3">
-                            <img src="assets/images/image33.jpg" alt="抓拍示例4">
-                          </div>
-                          <div class="gallery">
-                            <img src="assets/images/image34.jpg" alt="抓拍示例5">
-                            <img src="assets/images/image35.jpg" alt="抓拍示例6">
-                            <img src="assets/images/image36.jpg" alt="抓拍示例7">
-                          </div>
-                          <div class="gallery">
-                            <img src="assets/images/image37.jpg" alt="抓拍示例8"><img src="assets/images/image38.jpg" alt="抓拍示例9"><img src="assets/images/image39.jpg" alt="抓拍示例10">
-                            <img src="assets/images/image40.jpg" alt="抓拍示例11"><img src="assets/images/image41.jpg" alt="抓拍示例12"><img src="assets/images/image42.jpg" alt="抓拍示例13">
-                          </div>
-                        </li>
-                        <li class="photo-item">
-                          <strong>演出结束后的合影</strong>
-                          <div class="gallery">
-                            <img src="assets/images/image43.jpg" alt="合影示例1">
-                            <img src="assets/images/image44.jpg" alt="合影示例2">
-                            <img src="assets/images/image45.jpg" alt="合影示例3">
-                          </div>
-                        </li>
-                        <li class="photo-item">
-                          <strong>特别提醒</strong>
-                          <ul>
-                            <li>不要忘记坐在最后经常被挡的鼓手</li>
-                            <li>有些谱架会挡住乐手或者透出来不好看的影子，需要及时和乐手沟通调整谱架的位置。如果乐手不需要谱架，就及时把谱架拿下舞台，以获得更好的画面。</li>
-                          </ul>
-                        </li>
-                      </ol>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-1442">
-                    <summary>录像</summary>
-                    <div class="sub4-body">
-                      <ul>
-                        <li>定机位需要保证将所有乐手框入，保证四平八稳，录像时以完整的歌/完整的乐队为单位，确保相机/手机电量、内存充足；</li>
-                        <li>其余拍照人员可根据情况抽空录一些片段，丰富视角。</li>
-                      </ul>
-                    </div>
-                  </details>
-                </div>
-              </details>
-            </div>
-          </details>
-
-          <details class="section" id="sec-15">
-            <summary>善后</summary>
-            <div class="section-body">
-              <p>善后的前提是演出不能结束得太晚，确保有足够的时间先把设备安置在合适的地方，这便需要负责人对整个节目的时长和起止有一定的概念，宁可提前不要延后。</p>
-              <details class="subsection" id="sec-151">
-                <summary>设备</summary>
-                <div class="subsection-body">
-                  <p>为设备搬运过程的镜像，有时如果实在太晚，设备无法直接归位，第二天应尽快将设备归位。负责人需分工清点线材、音箱、话筒、麦架、各种零件等，并提醒所有演出人员拿齐个人物品，确保无遗失。</p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-152">
-                <summary>资料</summary>
-                <div class="subsection-body">
-                  <p>图片、视频文件较大，建议传网盘后将链接发到群里。如果有精力来得及，可以按照乐队分别建文件夹，方便查看。</p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-153">
-                <summary>反思总结</summary>
-                <div class="subsection-body">
-                  <p>这是最不可见的部分，但极其重要。负责人应复盘整个活动中出现的问题和做的比较好的部分，梳理过程、制定措施、总结经验，在这里进行增/删/改，不断完善。</p>
-                </div>
-              </details>
-            </div>
-          </details>
-
-      </section>
-    </section>
-
-    <!-- 3. 审批 -->
-    <section class="card block" id="approval" data-icon="📋" data-desc="审批盖章地点 / 审批顺序">
-      <div class="card-content">
-        <h2>审批流程</h2>
-        <p>所有审批表和资料都至少需要保存到活动完全结束，方便中途作为各种凭证。</p>
-      </div>
-      <section class="document-outline">
-
-      <!-- 2. 审批过程 -->
-      <details class="chapter" id="sec-2">
-        <summary>审批过程</summary>
-        <div class="chapter-body">
-          <p>所有审批表和资料都至少需要保存到活动完全结束，方便中途作为各种凭证。</p>
-
-          <details class="section" id="sec-21">
-            <summary>审批盖章地点</summary>
-            <div class="section-body">
-              <img class="img" src="assets/images/image46.png" alt="审批盖章地点示意">
-              <details class="subsection" id="sec-211">
-                <summary>社团指导教师所在的办公地点</summary>
-                <div class="subsection-body">
-                  <p>社团指导教师不是一成不变的，所以要根据当届实际情况前往对应的地点。</p>
-                  <p>请根据当年情况自行调查。</p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-212">
-                <summary>天佑301</summary>
-                <div class="subsection-body">
-                  <p>位于天佑会堂西侧，从外置楼梯上三楼，进门右手的房间，为社团管理部的办公地点。</p>
-                  <img class="img" src="assets/images/image47.jpg" alt="天佑301">
-                </div>
-              </details>
-              <details class="subsection" id="sec-213">
-                <summary>学活803/805</summary>
-                <div class="subsection-body">
-                  <p>位于学活楼内，从学活一楼大厅坐电梯上8层即可，为校团委的办公地点，其中803为主要审批盖章处，805为锁定房间表的盖章处之一。</p>
-                  <img class="img" src="assets/images/image48.jpg" alt="学活803/805">
-                </div>
-              </details>
-              <details class="subsection" id="sec-214">
-                <summary>机械楼会议中心</summary>
-                <div class="subsection-body">
-                  <p>机械楼位于学校东南方向，南侧门口有一节火车头，西侧为电气工程楼，北侧为逸夫东（研究生院）。会议中心位于机械楼北侧，朝向逸夫东，为申请房间锁定表需要审批的地点之一。</p>
-                  <img class="img" src="assets/images/image49.jpg" alt="机械楼会议中心">
-                  <p>从此处门进入后，右手有一个小房间，为操作房间锁定的办公室</p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-215">
-                <summary>保卫处</summary>
-                <div class="subsection-body">
-                  <p>位于南门保安室，几乎是所有活动申请需要去的最后一个地方。</p>
-                  <img class="img" src="assets/images/image50.jpg" alt="保卫处">
-                </div>
-              </details>
-            </div>
-          </details>
-
-          <details class="section" id="sec-22">
-            <summary>审批顺序</summary>
-            <div class="section-body">
-              <p>所有审批表在填写完成后，负责人应先把电子版发给社管工作人员进行检查，待社管确认无误后按照表格末尾注释打印对应的份数（建议比规定数多一张，以防规则临时改变有缺漏）。</p>
-              <div class="note">
-                <span class="label">注意</span>
-                <ul>
-                  <li>表格上可能会有手写部分；</li>
-                  <li>活动举办时间精确到时刻；</li>
-                  <li>可将"打印x份"写入文件名，方便打印。</li>
-                </ul>
-              </div>
-              <details class="subsection" id="sec-221">
-                <summary>活动审批</summary>
-                <div class="subsection-body">
-                  <p>活动审批是最基本的流程，一般来说负责人需准备以下资料：</p>
-                  <details class="sub4" id="sec-2211">
-                    <summary>活动申请书</summary>
-                    <div class="sub4-body">
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><a class="file" href="assets/linked%20Document/吉协专场申请1式2份.docx" download>吉协专场申请1式2份.docx</a></p>
-                      </figure>
-                      <ol>
-                        <li>于"活动内容简介"的下一格空白处手写：<br>将严格遵守共青团北京交通大学委员会学生社团管理部各项管理规定，如实填写申请书信息，并依照填写信息开展好本次活动。</li>
-                        <li>"学生社团管理部意见"盖章处为天佑301</li>
-                      </ol>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-2212">
-                    <summary>活动审批表</summary>
-                    <div class="sub4-body">
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><a class="file" href="assets/linked%20Document/吉协专场审批1式3份.docx" download>吉协专场审批1式3份.docx</a></p>
-                      </figure>
-                      <ol>
-                        <li>"主办单位意见"为指导老师签章处</li>
-                        <li>"校团委"盖章处为学活803</li>
-                        <li>"保卫处"签字处为保卫处</li>
-                        <li>吉协活动一般不涉外，也不是论坛/报告/讲座，所以"宣传部"、"国际处"、"主管校领导意见"都不需盖章</li>
-                      </ol>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-2213">
-                    <summary>活动策划书</summary>
-                    <div class="sub4-body">
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><a class="file" href="assets/linked%20Document/吉协小剧场演出策划书多打几份.docx" download>吉协小剧场演出策划书多打几份.docx</a></p>
-                      </figure>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-2214">
-                    <summary>安全预案</summary>
-                    <div class="sub4-body">
-                      <p>将活动审批表中的"安全措施与安全预案"部分重新做成单独的文档，打印至少2份。</p>
-                      <figure class="example">
-                        <figcaption>示例</figcaption>
-                        <p><a class="file" href="assets/linked%20Document/小剧场专场安全预案.docx" download>小剧场专场安全预案.docx</a></p>
-                      </figure>
-                    </div>
-                  </details>
-                </div>
-              </details>
-              <details class="subsection" id="sec-222">
-                <summary>房间锁定</summary>
-                <div class="subsection-body">
-                  <p>如果想要在小剧场办活动，可在学活场地申请系统中进行预约，预约范围为距预约当天的5-10天。</p>
-                  <p>5月和11月为小剧场使用高峰期，在系统上大概率会因各种占用而导致预约失败，所以需至少提前一个月进行房间锁定。</p>
-                  <figure class="example">
-                    <figcaption>示例</figcaption>
-                    <p><a class="file" href="assets/linked%20Document/小剧场房间锁申请表1式4份.docx.docx" download>小剧场房间锁申请表1式4份.docx.docx</a></p>
-                  </figure>
-                  <ol>
-                    <li>"学活一层1号岗"实为学活803、805</li>
-                    <li>"小剧场控制室"为中控打灯调音处</li>
-                    <li>此申请表最好一式5份</li>
-                  </ol>
-                </div>
-              </details>
-              <details class="subsection" id="sec-223">
-                <summary>宣传资料审查</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-2231">
-                    <summary>推送</summary>
-                    <div class="sub4-body">
-                      <p>推送在演出前做出来发给校团委群里宣传部的人审核。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-2232">
-                    <summary>歌单</summary>
-                    <div class="sub4-body">
-                      <p>歌单越早出越好，主要为了防止乐队排了好几个月的歌最后发现演不了，歌单给校团委（学活803）审核。</p>
-                      <p>（目前禁止一切日本歌曲演出，包括日本歌曲改编的中文英文歌）</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-2233">
-                    <summary>海报</summary>
-                    <div class="sub4-body">
-                      <p>海报做出来之后打印：</p>
-                      <ul>
-                        <li>一份海报</li>
-                        <li>一份学生活动审批表</li>
-                      </ul>
-                      <p>指导老师签字，学院签字盖章，不用经过社管，直接送到校团委（学活803）。</p>
-                    </div>
-                  </details>
-                </div>
-              </details>
-            </div>
-          </details>
-
-      </section>
-    </section>
-
-    <!-- 4. 日常 -->
-    <section class="card block" id="daily" data-icon="🏠" data-desc="音箱使用 / 预约表 / 吉他课 / 换届 / 外交">
-      <div class="card-content">
-        <h2>日常流程</h2>
-      </div>
-      <section class="document-outline">
-
-      <!-- 4. 日常事务 -->
-      <details class="chapter" id="sec-4">
-        <summary>日常事务</summary>
-        <div class="chapter-body">
 
           <details class="section" id="sec-41">
             <summary>音箱使用说明</summary>
@@ -2597,274 +2066,122 @@
             </div>
           </details>
 
-          <details class="section" id="sec-42">
-            <summary>预约表</summary>
+                    <details class="section" id="sec-43">
+            <summary>吉他课</summary>
             <div class="section-body">
-              <p>吉协的社团性质决定了我们需要供乐队成员练习和排练的空间，也就是活动室。我们的活动室已由嘉园地下室A28-40转变为学活505，从专属活动室转变为和学校其它社团的共用活动室。</p>
-              <p>吉协坚持为每一个热爱音乐的成员提供便利，奈何时间和空间都是有限的，所以排练室施行每周一开放小程序统一预约，供各队负责人查看和预约合适且空闲的时间。</p>
-              <!-- <p> <a href="https://example.com">小程序预约</a>二维码：<br><img src="assets/linked%20Document/学活505预约表.png" alt="学活505预约表" width="200"></p> -->
-              <p>小程序使用：每位成员都需要在小程序上注册账号，之后注册队伍，由队长拉人完成队伍的注册。在管理员审核通过后，即可在预约界面查看并预约排练室空闲时间。我们强烈建议每支队伍将已经排好的歌曲同步在小程序上，方便演出的规划。</p>
-              <p>在此，我们也提供之前一直使用的预约表表格，作为历史的见证与备份。</p>
-              <figure class="example">
-                <figcaption>示例</figcaption>
-                <p><a class="file" href="assets/linked%20Document/学活505预约表.xlsx" download>学活505预约表.xlsx</a></p>
-              </figure>
-              <p>为避免人数过多过杂，我们采取的措施是每个队仅出一人进入排练室预约群，且只有经过排练室负责人审核的队负责人能在小程序预约，尽可能确保大家都能公平有序进行预约和排练，达到最大利用率。</p>
+              <p>吉他课程是协会面向校内音乐爱好者开设的常规培训课程，主要分为民谣吉他基础班和提高班。课程以民谣吉他为主，兼顾基础乐理、弹唱、指弹、拨片演奏、现代音乐风格及乐队合奏等内容，欢迎零基础的同学报名。</p>
+
+              <details class="subsection" id="sec-431">
+                <summary>班级与收费</summary>
+                <div class="subsection-body">
+                  <p>两个班型分学期开设：一般每学年第一学期开设民谣吉他基础班，第二学期开设提高班。</p>
+
+                  <details class="sub4" id="sec-4311">
+                    <summary>民谣吉他基础班</summary>
+                    <div class="sub4-body">
+                      <ul>
+                        <li><strong>收费标准</strong>：400 元 / 10 节课（参考价格）。</li>
+                        <li><strong>适合人群</strong>：喜欢音乐、对吉他感兴趣，但没有任何基础，或曾初步自学但不系统的同学。</li>
+                      </ul>
+                      <p><strong>教学目标</strong>：以民谣吉他为主。</p>
+                      <ol>
+                        <li>运用所学基本知识及技巧，弹唱自己喜欢的歌曲；</li>
+                        <li>掌握基础乐理知识，同时开拓眼界，提高音乐素质与艺术修养；</li>
+                        <li>初步具备歌曲的编配与创作能力。</li>
+                      </ol>
+                    </div>
+                  </details>
+
+                  <details class="sub4" id="sec-4312">
+                    <summary>提高班</summary>
+                    <div class="sub4-body">
+                      <ul>
+                        <li><strong>收费标准</strong>：500 元 / 10 节课（参考价格）。</li>
+                        <li><strong>适合人群</strong>：已完成基础班学习，或已有一定基础、希望进一步提升的同学。</li>
+                      </ul>
+                      <p><strong>教学内容</strong>：</p>
+                      <ol>
+                        <li><strong>指弹部分</strong>：指弹基本手法与常用、特殊技巧；几种风格的独奏经典曲目。</li>
+                        <li><strong>拨片使用</strong>：拨片的使用方法及部分经典独奏曲目。</li>
+                        <li><strong>现代音乐风格学习与训练</strong>：pop、rock、funk、blues、reggae、metal 等，包括吉他、贝斯、鼓及乐队合奏等内容。</li>
+                        <li><strong>乐理部分</strong>：主要学习歌曲创作及即兴演奏。</li>
+                      </ol>
+                    </div>
+                  </details>
+
+                  <details class="sub4" id="sec-4313">
+                    <summary>课时与收费说明</summary>
+                    <div class="sub4-body">
+                      <ol>
+                        <li>每节课约 2 小时。</li>
+                        <li>每学期一般安排 10 节课左右。</li>
+                        <li>收费按实际商定的课时执行，如需调整会提前通知。</li>
+                      </ol>
+                    </div>
+                  </details>
+                </div>
+              </details>
+
+              <details class="subsection" id="sec-432">
+                <summary>上课安排</summary>
+                <div class="subsection-body">
+                  <ol>
+                    <li><strong>授课教师</strong>：基础班和提高班均从校外聘请老师授课。</li>
+                    <li><strong>上课频率</strong>：在无月考等冲突的情况下一般每周一节；若与月考或其他重要安排冲突，课程可能顺延，具体以通知为准。</li>
+                    <li><strong>上课地点</strong>：暂定学活 505 排练室；若条件允许优先在学活上课。</li>
+                    <li><strong>教学反馈</strong>：老师课前会复习上一节内容；若上课时间冲突，可课下联系老师沟通。</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="subsection" id="sec-433">
+                <summary>如何报名</summary>
+                <div class="subsection-body">
+                  <ol>
+                    <li><strong>招生时间</strong>：一般在百团大战招新结束后开始招生。</li>
+                    <li><strong>班型安排</strong>：一般每学年第一学期开设基础班，面向零基础同学；第二学期开设提高班，是基础班的延伸，欢迎继续报名。</li>
+                    <li><strong>报名流程</strong>：先登记意向 → 参加试听课 → 试听后确认是否正式报名。</li>
+                    <li><strong>试听课</strong>：每一位有意向的同学都有试听机会，一般每学期第一节课组织试听。</li>
+                  </ol>
+                  <p>具体报名方式、开班时间与上课时间以课程群通知为准。</p>
+                </div>
+              </details>
+
+              <details class="subsection" id="sec-434">
+                <summary>师资介绍</summary>
+                <div class="subsection-body">
+                  <details class="sub4" id="sec-4341">
+                    <summary>教师简介</summary>
+                    <div class="sub4-body">
+                      <p>董波老师，1983 年考入东南大学桥梁设计专业，并一见如故地喜欢上了充满魅力的吉他。在刻苦学习与训练的同时，他组建了第一支大学生乐队，毕业前创建了东南大学吉他协会，并成功举办了第一届大学生吉他大奖赛。毕业后加入中国交通部电声乐团任吉他手，后相继组建了数支乐队，并多次参加吉他讲学活动，受到学员们的一致好评。</p>
+                      <p>董老师至今已培养出很多优秀的学员，如《花》乐队的贝司手郭阳、朴树乐队吉他手苗佳、老狼乐队吉他手杨颖彪、YAMAHA 乐坛惊雷大奖赛冠军《希望乐队》、金奖吉他手夏伟楠、百事可乐盖世群音大奖赛北京赛区冠军《斯巴达》乐队、最佳吉他手程功、冰红茶冰力先锋冠军乐队《意念力》、最佳鼓手梁潇、全国乐器展贝塔斯瑞吉他大奖赛亚军冯军、签约太合麦田唱片公司的女歌手唐红菲等。</p>
+                      <p>四年的理工科学习使他的讲课充满激情而又逻辑清晰。他把多年总结的音乐知识与演奏技巧重新修订，用简洁明快、活泼生动的语言把现代音乐曲风的关键讲透，深受学生欢迎。多年来，他还一直担任清华大学、人民大学、中央民族大学、北京外国语大学、中央美术学院等近十所著名大学的吉他教师及乐队导师。</p>
+                      <blockquote>琴身上蕴含着技巧、智慧和力量，乐声中荡漾着情感、哲学和信仰。<br>——董波老师的座右铭</blockquote>
+                    </div>
+                  </details>
+                </div>
+              </details>
             </div>
           </details>
 
-          <details class="section" id="sec-43">
-            <summary>吉他课</summary>
+          <details class="section" id="sec-shows">
+            <summary>演出活动</summary>
             <div class="section-body">
               <p>（内容待补充）</p>
             </div>
           </details>
 
-          <details class="section" id="sec-44">
-            <summary>换届/审核</summary>
-            <div class="section-body">
-              <p>学校社团每年会有一次换届和两次审核，一般是在上半学期末会有中期评估，下半学期末是年审和换届注册</p>
-              <details class="subsection" id="sec-441">
-                <summary>换届注册</summary>
-                <div class="subsection-body">
-                  <p>当任管理层成员应在过去一年里物色好合适的下届管理层人选，有能力或是实在没有合适人选可以连任。</p>
-                  <p>新任管理层填写完申请表后需要去各自学院团委处盖章签字，并写一份《北京交通大学学生社团建设管理办法》的学习心得。</p>
-                  <p>在填写好当期换届材料之后，请将附件1-3（共三项）发送至社团部邮箱，纸质版材料交至天佑301。附件4-6和《北京交通大学学生社团建设管理办法》学习心得（共四项）发送至社团部邮箱，纸质版材料交至天佑301。</p>
-                  <p><strong>附件：</strong></p>
-                  <p class="attach"><span class="attach-num">1.关于XX学生社团开展换届工作的请示</span><br><a class="file" href="assets/linked%20Document/附件1：关于XX学生社团开展换届工作的请示.xlsx" download>附件1：关于XX学生社团开展换届工作的请示.xlsx</a></p>
-                  <p class="attach"><span class="attach-num">2.学生社团执行机构候选人提名推荐表</span><br><a class="file" href="assets/linked%20Document/附件2：XX学生社团执行机构候选人提名推荐表（参选人姓名）.docx" download>附件2：XX学生社团执行机构候选人提名推荐表（参选人姓名）.docx</a></p>
-                  <p class="attach"><span class="attach-num">3.学生社团执行机构候选人提名推荐汇总表</span><br><a class="file" href="assets/linked%20Document/附件3：学生社团执行机构候选人提名推荐汇总表.xlsx" download>附件3：学生社团执行机构候选人提名推荐汇总表.xlsx</a></p>
-                  <p class="attach"><span class="attach-num">4.学生社团执行机构候选人选举计票结果报告单</span><br><a class="file" href="assets/linked%20Document/附件4：XX学生社团执行机构候选人选举计票结果报告单.docx" download>附件4：XX学生社团执行机构候选人选举计票结果报告单.docx</a></p>
-                  <p class="attach"><span class="attach-num">5.学生社团XX学年换届工作情况汇报</span><br><a class="file" href="assets/linked%20Document/附件5：XX学生社团2025—2026学年换届工作情况汇报.docx" download>附件5：XX学生社团2025—2026学年换届工作情况汇报.docx</a></p>
-                  <p class="attach"><span class="attach-num">6.学生社团负责人候选人及部门负责人信息汇总表</span><br><a class="file" href="assets/linked%20Document/附件6：学生社团执行机构候选人及部门负责人信息汇总表.xlsx" download>附件6：学生社团执行机构候选人及部门负责人信息汇总表.xlsx</a></p>
-                  <p class="attach"><span class="attach-num">7.《北京交通大学学生社团建设管理办法》</span><br><a class="file" href="assets/linked%20Document/附件7：【校发2020[25号]】关于印发《北京交通大学学生社团建设管理办法》的通知.pdf" download>附件7：【校发2020[25号]】关于印发《北京交通大学学生社团建设管理办法》的通知.pdf</a></p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-442">
-                <summary>年审</summary>
-                <div class="subsection-body">
-                  <p>每年年末的社团评估，非常重要，需提交电子版和纸质版的年审信息表（附件1）、社团人员统计表（附件2）、XX年3—6月学生社团年终总结（附件3），电子版年审相关材料发送至指定邮箱，纸质版年审信息表上交至天佑301社团部办公室。</p>
-                  <p><strong>附件：</strong></p>
-                  <p class="attach"><span class="attach-num">1.北京交通大学学生社团XX学年年审信息</span><br><a class="file" href="assets/linked%20Document/北京交通大学学生社团XX学年年审信息.docx" download>北京交通大学学生社团XX学年年审信息.docx</a></p>
-                  <p class="attach"><span class="attach-num">2.社团人员统计表</span><br><a class="file" href="assets/linked%20Document/社团人员统计表.docx" download>社团人员统计表.docx</a></p>
-                  <p class="attach"><span class="attach-num">3.XX年3—6月学生社团年终总结</span><br><a class="file" href="assets/linked%20Document/XX年3—6月学生社团年终总结.docx" download>XX年3—6月学生社团年终总结.docx</a></p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-443">
-                <summary>中期评估</summary>
-                <div class="subsection-body">
-                  <p>中期评估与年审高度相似，以具体要求为准，可以沿用一些信息。</p>
-                </div>
-              </details>
-              <p class="remind">以上所有文件均需按照文件要求去找指导老师、指导单位盖章签字，请详细阅读前文盖章相关内容</p>
-            </div>
-          </details>
-
-          <details class="section" id="sec-45">
-            <summary>外交</summary>
-            <div class="section-body">
-              <p>任何对外交流都要秉承友好和平的理念，同时需要负责人分清楚个人和集体的立场。讲起来有点抽象，实操上来说尽量责任到人、信守承诺，做判断时冷静分析和讨论，就事论事，不利于团结的话不讲，但也要有一定的边界感。</p>
-            </div>
-          </details>
-
-          <details class="section" id="sec-5">
-            <summary>其它注意事项</summary>
-            <div class="section-body">
-              <details class="subsection" id="sec-51">
-                <summary>天气</summary>
-                <div class="subsection-body">
-                  <p>室外演出活动需要把握天气，天气不好就发通知推迟，首先要保证大家身体健康、设备不损坏，不要硬演。</p>
-                  <p>祝吉协每次演出都是好天气！</p>
-                </div>
-              </details>
-              <details class="subsection" id="sec-52">
-                <summary>商业</summary>
-                <div class="subsection-body">
-                  <p>目前北交社团禁止接任何涉及商业的活动，我们也不需要去朋友圈转发小广告。</p>
-                </div>
-              </details>
-            </div>
-          </details>
-
-      </section>
-    </section>
-
-    <!-- 5. 招新 -->
-    <section class="card block" id="recruitment" data-icon="🌱" data-desc="百团前 / 百团时 / 百团后">
-      <div class="card-content">
-        <h2>招新流程</h2>
-        <p>吉协由于是兴趣社团，学校并不会有太多宣传资源的倾斜，大部分招新工作都集中在百团，所以百团是一个社团非常重要的活力来源。</p>
-      </div>
-      <section class="document-outline">
-
-          <details class="section" id="sec-31">
-            <summary>百团前</summary>
-            <div class="section-body">
-              <details class="subsection" id="sec-311">
-                <summary>物料</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-3111">
-                    <summary>宣传</summary>
-                    <div class="sub4-body">
-                      <ul>
-                        <li>海报见<a href="#sec-121" class="xref-btn">海报</a></li>
-                        <li>推文见<a href="#sec-1221" class="xref-btn">招新推文</a></li>
-                      </ul>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3112">
-                    <summary>礼品</summary>
-                    <div class="sub4-body">
-                      <p>吉协每年会设计一款拨片并找厂家进行制作，数量根据经费自定，一般不超过100个。</p>
-                      <ul>
-                        <li>用于做拨片的吉协logo：</li>
-                      </ul>
-                      <p>通过网盘分享的文件：logo</p>
-                      <p>链接: <a href="https://pan.baidu.com/s/1ECklv41_u_l5HyqywFbPCg?pwd=nyez">https://pan.baidu.com/s/1ECklv41_u_l5HyqywFbPCg?pwd=nyez</a> 提取码: nyez</p>
-                      <p>--来自百度网盘超级会员v6的分享</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3113">
-                    <summary>设备</summary>
-                    <div class="sub4-body">
-                      <p>与演出准备基本一致</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3114">
-                    <summary>其它</summary>
-                    <div class="sub4-body">
-                      <ul>
-                        <li>黑板/白板、白板笔、胶带、剪刀</li>
-                        <li>打印群聊/公众号二维码</li>
-                      </ul>
-                    </div>
-                  </details>
-                </div>
-              </details>
-              <details class="subsection" id="sec-312">
-                <summary>节目</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-3121">
-                    <summary>主舞台</summary>
-                    <div class="sub4-body">
-                      <p>一般来说社管会向各个社团征集节目，吉协的社团性质决定了我们会在主舞台出一个节目。为了方便搬运设备，此处节目尽量安排为指弹，只需要一个cube。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3122">
-                    <summary>摊位</summary>
-                    <div class="sub4-body">
-                      <p>摊位表演和路演专场性质不同，没有那么正式，重点在于制造出动静吸引人来。可仿照办路演专场的形式，提前给能参演的乐队排一个大致的顺序，一般从下午两点开始至五点，不需要严丝合缝，不需要阵容完整。</p>
-                    </div>
-                  </details>
-                </div>
-              </details>
-              <details class="subsection" id="sec-313">
-                <summary>人员</summary>
-                <div class="subsection-body">
-                  <p>吉协并非等级森严的组织，负责人的分工不会太明确，身兼多职和相互重合是很常见的。百团主要分为以下几种人员安排：</p>
-                  <ul>
-                    <li>搬运人员</li>
-                    <li>表演人员</li>
-                    <li>值班人员</li>
-                  </ul>
-                </div>
-              </details>
-            </div>
-          </details>
-
-          <details class="section" id="sec-32">
-            <summary>百团时</summary>
-            <div class="section-body">
-              <p>百团一般会持续一白天（朝九晚五），社团负责人需提前至少半小时到达，领取桌子、椅子，并对摊位进行布置。</p>
-              <p>对于吉协来说，最主要的依然是搬设备。在搬设备之外，负责人还需：</p>
-              <ul>
-                <li>贴海报、二维码（加群人数过多需要及时再建群，并更换二维码）</li>
-                <li>发拨片等物料</li>
-                <li>向新生介绍吉协</li>
-                <li>盯设备，尤其注意镲架麦架的稳定</li>
-                <li>制造动静，弹琴打鼓（没有乐队表演的时候）</li>
-              </ul>
-            </div>
-          </details>
-
-          <details class="section" id="sec-33">
-            <summary>百团后</summary>
-            <div class="section-body">
-              <details class="subsection" id="sec-331">
-                <summary>线上</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-3311">
-                    <summary>水群</summary>
-                    <div class="sub4-body">
-                      <p>每一届重新拉一个大水群，如果招新时建了多个群，负责人需要将其它群里的同学都拉到第一个群里。</p>
-                      <p>所有人都在同一个水群后，群内便可发布后续事宜。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3312">
-                    <summary>乐手组队群</summary>
-                    <div class="sub4-body">
-                      <p>吉协需要乐队，乐队需要吉协。为了能让想组乐队的成员相互交流组队，需要单独建一个乐手组队群。该群内可发布共享表格，便于大家填写自己的各项信息便于组队，一般来说包括但不限于以下几个方面：</p>
-                      <ul>
-                        <li>姓名</li>
-                        <li>位置</li>
-                        <li>微信号</li>
-                        <li>爱听的曲风</li>
-                      </ul>
-                      <p></p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3313">
-                    <summary>吉他课群</summary>
-                    <div class="sub4-body">
-                      <p>对于想学习乐器的成员，吉协也有课程开设。吉他课的具体事宜详见<a href="#sec-43" class="xref-btn">吉他课</a>。</p>
-                    </div>
-                  </details>
-                </div>
-              </details>
-              <details class="subsection" id="sec-332">
-                <summary>线下</summary>
-                <div class="subsection-body">
-                  <details class="sub4" id="sec-3321">
-                    <summary>大会</summary>
-                    <div class="sub4-body">
-                      <p>需要提前约一个教室开大会，目的是统一介绍吉协的各项事宜。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3322">
-                    <summary>乐手见面会</summary>
-                    <div class="sub4-body">
-                      <p>在乐手组队群的信息填写的差不多后，为了方便大家组队，需要把新乐手聚集在排练室让大家自行展示交流。</p>
-                    </div>
-                  </details>
-                  <details class="sub4" id="sec-3323">
-                    <summary>吉他课试课</summary>
-                    <div class="sub4-body">
-                      <p>详见<a href="#sec-43" class="xref-btn">吉他课</a>。</p>
-                    </div>
-                  </details>
-                </div>
-              </details>
-            </div>
-          </details>
-
       </section>
     </section>
 
 
-    <!-- 8. 遗言区 -->
+
     <section class="card block" id="preface" data-icon="📜" data-desc="碎碎念">
       <div class="card-content">
         <h2>遗言区</h2>
-        <p>大学社团换届频繁，流程全靠口口相传。笔者认为有必要改变这样的局面，所以尝试创建这个文档，尽可能全方位地向未来的负责人介绍吉协运营的各项事宜。</p>
-        <p>北交的社团活动申请流程每学期都会有改动，此文档只是根据过往经验，尝试总结最基本的框架。希望能对以后吉协的活动申请、审批、举办和日常运营有所帮助；希望大家在社团活动里玩的开心，同时也能锻炼自身能力，从而获得成长。</p>
-        <p>运营社团可以很简单，也可以很困难。笔者当然是希望吉协可以一直认真组织，所以在对于具体事项进行阅读之前，希望未来的负责人可以读一读这篇文章：</p>
-        <blockquote><a href="https://mp.weixin.qq.com/s/rVkjaG-xIJH-Ww6v0u2zQw" target="_blank">《高校兴趣社团：兴趣之外，还有什么？》</a></blockquote>
-        <p>其实27年左右学生逐渐搬往雄安校区后，吉协能以何种形式存在都不得而知，这些事情也和笔者关系不大了。但是整个运营流程的基本思路和中心思想应该不会有太大改变。如果之后的负责人能在此基础上不断更新和完善，笔者认为，这些整理总结工作终究不会是白费力气。对于其它兄弟姐妹社团，在日常管理和举办活动的共通之处也能有一些帮助。</p>
-
       </div>
       <section class="document-outline">
 
-      <!-- 6. 刻在石头上的句子 -->
       <details class="chapter" id="sec-stones">
         <summary>刻在石头上的句子（投稿请发至管理员邮箱）</summary>
         <div class="chapter-body">
@@ -2897,19 +2214,12 @@
         </div>
       </details>
 
-      <!-- 7. 感谢 -->
       <div class="chapter-block" id="sec-6">
         <h3>感谢</h3>
         <div class="chapter-body">
-          <p>本网站主要内容的原文由马岚琪编写，全文中的笔者均指代作者马岚琪。2026年8月，在受到一些相关的启发后，北交吉协便尝试开发预约报表功能的小程序和这个介绍并展示社团的网站。
-          本网站选择以马岚琪的文章为基础，进行结构的重构和内容上的调整和补充，是因为她的文章比较系统的阐述了吉协活动和管理的基本流程，有比较高的参考价值。
-          当然在网站筹划时，一些工作流程或者重要信息已经发生了一定改变，因此网站上的内容已经进行了一些调整，删除了一些过时或敏感的内容，补充了最新的信息。</p>
-          <p>直接或间接协助笔者参与了此文档（原文）编写工作的：</p>
+          <p>参与网站文字内容编写的：</p>
           <ul>
-            <li>林熙（<a href="#sec-1412" class="xref-btn">接电</a>处水电中心的位置和介绍、<a href="#sec-1222" class="xref-btn">活动推文</a>处推文）、刘泓锐（<a href="#sec-223" class="xref-btn">宣传资料审查</a>）、范祝哲（<a href="#sec-41" class="xref-btn">音箱使用说明</a>）、门福言（<a href="#sec-42" class="xref-btn">预约表</a>、<a href="#sec-44" class="xref-btn">换届/审核</a>）；</li>
-            <li>李维岩（<a href="#sec-121" class="xref-btn">海报</a>处所有海报）、林昀潼（<a href="#sec-1221" class="xref-btn">招新推文</a>、<a href="#sec-1222" class="xref-btn">活动推文</a>处推文）；</li>
-            <li>乔飞羽(Lamp音乐联盟)（梳理<a href="#sec-22" class="xref-btn">审批顺序</a>处的流程）、汪润泽（提供吉协logo的网盘链接、<a href="#sec-44" class="xref-btn">换届/审核</a>处的附件）；</li>
-            <li>鲁大兴老师、何倩、北交摄影协会、所有出镜的同学们（<a href="#sec-1441" class="xref-btn">拍照</a>）。</li>
+            <li>范祝哲（<a href="#sec-41" class="xref-btn">音箱使用说明</a>）、门福言（<a href="#sec-42" class="xref-btn">预约表</a>）；</li>
           </ul>
           <p>参与了网站上新增内容设计的：</p>
           <ul>
@@ -2924,7 +2234,6 @@
       </section>
     </section>
 
-    <!-- 9. 通讯录 -->
     <section class="card block" id="contacts" data-icon="📇" data-desc="联系方式">
       <div class="card-content">
         <h2>通讯录</h2>
@@ -2936,124 +2245,19 @@
           </div>
     </section>
 
-    <!-- 10. 参考文献 -->
-    <section class="card block" id="refs" data-icon="📚" data-desc="推文链接 / 海报示例 / 文件模板 / 策划书">
+    <section class="card block" id="refs" data-icon="📚" data-desc="外部链接">
       <div class="card-content">
         <h2>参考文献</h2>
-        <p>以下为本文中涉及的全部参考素材与文件模板汇总，按类别整理，方便快速查找与下载。</p>
+        <p>以下为本文中提到的外部参考链接。</p>
       </div>
       <section class="document-outline">
 
-        <details class="chapter" id="refs-articles">
-          <summary>推荐阅读</summary>
+        <details class="chapter" id="refs-links">
+          <summary>外部链接</summary>
           <div class="chapter-body">
             <ul>
-              <li><a href="https://mp.weixin.qq.com/s/rVkjaG-xIJH-Ww6v0u2zQw" target="_blank">《高校兴趣社团：兴趣之外，还有什么？》</a> — 思想准备参考文章</li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="chapter" id="refs-wechat">
-          <summary>推文链接</summary>
-          <div class="chapter-body">
-            <p><strong>招新推文</strong></p>
-            <ul>
-              <li><a href="https://mp.weixin.qq.com/s/g8s_eEN4fDjJfOlFjrYLDA" target="_blank">招新推文示例</a>（详见 <a href="#sec-1221" class="xref-btn">招新推文</a>）</li>
-            </ul>
-            <p><strong>活动推文</strong></p>
-            <ul>
-              <li><a href="https://mp.weixin.qq.com/s/kQwBuN50zdHIlM7AMf2GCw" target="_blank">活动推文示例①</a></li>
-              <li><a href="https://mp.weixin.qq.com/s/f03vHt6fu5X1PRDZPrp5Nw" target="_blank">活动推文示例②</a></li>
-            </ul>
-            <p><strong>乐队介绍推文</strong></p>
-            <ul>
-              <li><a href="https://mp.weixin.qq.com/s/a7Jkory7Cs6KhbBMqSB-ow" target="_blank">乐队介绍示例①</a></li>
-              <li><a href="https://mp.weixin.qq.com/s/cok87WumqNcSCpCSZ5Xh0Q" target="_blank">乐队介绍示例②</a></li>
-            </ul>
-            <p>（以上详见 <a href="#sec-1222" class="xref-btn">活动推文</a>）</p>
-          </div>
-        </details>
-
-        <details class="chapter" id="refs-posters">
-          <summary>海报示例</summary>
-          <div class="chapter-body">
-            <p>（详见 <a href="#sec-121" class="xref-btn">海报</a>）</p>
-            <div class="gallery">
-              <img src="assets/images/image6.jpg" alt="海报示例1">
-              <img src="assets/images/image7.jpg" alt="海报示例2">
-              <img src="assets/images/image8.jpg" alt="海报示例3">
-            </div>
-            <div class="gallery">
-              <img src="assets/images/image9.jpg" alt="海报示例4">
-              <img src="assets/images/image10.jpg" alt="海报示例5">
-            </div>
-          </div>
-        </details>
-
-        <details class="chapter" id="refs-files">
-          <summary>文件模板</summary>
-          <div class="chapter-body">
-
-            <details class="section" id="refs-files-activity">
-              <summary>活动相关</summary>
-              <div class="section-body">
-                <ul>
-                  <li><a class="file" href="assets/linked%20Document/1122节目单.xls" download>1122节目单.xls</a>（详见 <a href="#sec-132" class="xref-btn">曲目</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/歌词.docx" download>歌词.docx</a>（详见 <a href="#sec-132" class="xref-btn">曲目</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/20251122专场灯光.docx" download>20251122专场灯光.docx</a>（详见 <a href="#sec-1422" class="xref-btn">室内灯光</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/彩排.xlsx" download>彩排.xlsx</a>（详见 <a href="#sec-143" class="xref-btn">彩排</a>）</li>
-                </ul>
-              </div>
-            </details>
-
-            <details class="section" id="refs-files-approval">
-              <summary>审批相关</summary>
-              <div class="section-body">
-                <ul>
-                  <li><a class="file" href="assets/linked%20Document/吉协专场申请1式2份.docx" download>吉协专场申请1式2份.docx</a>（详见 <a href="#sec-2211" class="xref-btn">活动申请书</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/吉协专场审批1式3份.docx" download>吉协专场审批1式3份.docx</a>（详见 <a href="#sec-2212" class="xref-btn">活动审批表</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/吉协小剧场演出策划书多打几份.docx" download>吉协小剧场演出策划书多打几份.docx</a>（详见 <a href="#sec-2213" class="xref-btn">活动策划书</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/小剧场专场安全预案.docx" download>小剧场专场安全预案.docx</a>（详见 <a href="#sec-2214" class="xref-btn">安全预案</a>）</li>
-                  <li><a class="file" href="assets/linked%20Document/小剧场房间锁申请表1式4份.docx.docx" download>小剧场房间锁申请表1式4份.docx.docx</a>（详见 <a href="#sec-222" class="xref-btn">房间锁定</a>）</li>
-                </ul>
-              </div>
-            </details>
-
-            <details class="section" id="refs-files-daily">
-              <summary>日常相关</summary>
-              <div class="section-body">
-                <ul>
-                  <li><a class="file" href="assets/linked%20Document/学活505预约表.xlsx" download>学活505预约表.xlsx</a>（详见 <a href="#sec-42" class="xref-btn">预约表</a>）</li>
-                </ul>
-              </div>
-            </details>
-
-            <details class="section" id="refs-files-admin">
-              <summary>换届/年审相关</summary>
-              <div class="section-body">
-                <p>（详见 <a href="#sec-441" class="xref-btn">换届注册</a> 与 <a href="#sec-442" class="xref-btn">年审</a>）</p>
-                <p class="attach"><span class="attach-num">1.关于XX学生社团开展换届工作的请示</span><br><a class="file" href="assets/linked%20Document/附件1：关于XX学生社团开展换届工作的请示.xlsx" download>附件1：关于XX学生社团开展换届工作的请示.xlsx</a></p>
-                <p class="attach"><span class="attach-num">2.学生社团执行机构候选人提名推荐表</span><br><a class="file" href="assets/linked%20Document/附件2：XX学生社团执行机构候选人提名推荐表（参选人姓名）.docx" download>附件2：XX学生社团执行机构候选人提名推荐表（参选人姓名）.docx</a></p>
-                <p class="attach"><span class="attach-num">3.学生社团执行机构候选人提名推荐汇总表</span><br><a class="file" href="assets/linked%20Document/附件3：学生社团执行机构候选人提名推荐汇总表.xlsx" download>附件3：学生社团执行机构候选人提名推荐汇总表.xlsx</a></p>
-                <p class="attach"><span class="attach-num">4.学生社团执行机构候选人选举计票结果报告单</span><br><a class="file" href="assets/linked%20Document/附件4：XX学生社团执行机构候选人选举计票结果报告单.docx" download>附件4：XX学生社团执行机构候选人选举计票结果报告单.docx</a></p>
-                <p class="attach"><span class="attach-num">5.学生社团XX学年换届工作情况汇报</span><br><a class="file" href="assets/linked%20Document/附件5：XX学生社团2025—2026学年换届工作情况汇报.docx" download>附件5：XX学生社团2025—2026学年换届工作情况汇报.docx</a></p>
-                <p class="attach"><span class="attach-num">6.学生社团负责人候选人及部门负责人信息汇总表</span><br><a class="file" href="assets/linked%20Document/附件6：学生社团执行机构候选人及部门负责人信息汇总表.xlsx" download>附件6：学生社团执行机构候选人及部门负责人信息汇总表.xlsx</a></p>
-                <p class="attach"><span class="attach-num">7.《北京交通大学学生社团建设管理办法》</span><br><a class="file" href="assets/linked%20Document/附件7：【校发2020[25号]】关于印发《北京交通大学学生社团建设管理办法》的通知.pdf" download>附件7：【校发2020[25号]】关于印发《北京交通大学学生社团建设管理办法》的通知.pdf</a></p>
-                <p class="attach"><span class="attach-num">年审信息表</span><br><a class="file" href="assets/linked%20Document/北京交通大学学生社团XX学年年审信息.docx" download>北京交通大学学生社团XX学年年审信息.docx</a></p>
-                <p class="attach"><span class="attach-num">社团人员统计表</span><br><a class="file" href="assets/linked%20Document/社团人员统计表.docx" download>社团人员统计表.docx</a></p>
-                <p class="attach"><span class="attach-num">年终总结</span><br><a class="file" href="assets/linked%20Document/XX年3—6月学生社团年终总结.docx" download>XX年3—6月学生社团年终总结.docx</a></p>
-              </div>
-            </details>
-
-          </div>
-        </details>
-
-        <details class="chapter" id="refs-other">
-          <summary>其它链接</summary>
-          <div class="chapter-body">
-            <ul>
-              <li>音箱连接方法：<a href="https://zhuanlan.zhihu.com/p/41855894" target="_blank">zhuanlan.zhihu.com</a>（详见 <a href="#sec-4113" class="xref-btn">单次使用时长</a>）</li>
-              <li>吉协 logo 网盘：<a href="https://pan.baidu.com/s/1ECklv41_u_l5HyqywFbPCg?pwd=nyez" target="_blank">百度网盘</a> 提取码: nyez（详见 <a href="#sec-3112" class="xref-btn">礼品</a>）</li>
+              <li>音箱（箱头与箱体）连接方法：<a href="https://zhuanlan.zhihu.com/p/41855894" target="_blank">zhuanlan.zhihu.com</a></li>
+              <li>电子电路基础知识：<a href="https://space.bilibili.com/400280290?spm_id_from=333.1387.follow.user_card.click" target="_blank">B站视频</a></li>
             </ul>
           </div>
         </details>
@@ -3097,13 +2301,10 @@
     var PAGES = [
       { id: 'bands', title: '乐队档案', icon: '🎤', desc: '历届乐队介绍' },
       { id: 'gallery', title: '画廊', icon: '🖼️', desc: '活动照片集锦' },
-      { id: 'events', title: '活动流程', icon: '🎸', desc: '场地 / 宣传 / 内容 / 准备与现场 / 善后' },
-      { id: 'approval', title: '审批流程', icon: '📋', desc: '审批盖章地点 / 审批顺序' },
-      { id: 'daily', title: '日常流程', icon: '🏠', desc: '音箱使用 / 预约表 / 吉他课 / 换届 / 外交' },
-      { id: 'recruitment', title: '招新流程', icon: '🌱', desc: '百团前 / 百团时 / 百团后' },
+      { id: 'daily', title: '社团活动', icon: '🏠', desc: '预约表 / 音箱使用说明 / 吉他课 / 演出活动' },
       { id: 'preface', title: '遗言区', icon: '📜', desc: '碎碎念' },
       { id: 'contacts', title: '通讯录', icon: '📇', desc: '联系方式' },
-      { id: 'refs', title: '参考文献', icon: '📚', desc: '推文链接 / 海报示例 / 文件模板 / 策划书' }
+      { id: 'refs', title: '参考文献', icon: '📚', desc: '外部链接' }
     ];
 
     var currentPage = null;
@@ -3438,9 +2639,7 @@
     // 搜索栏样例关键词随机化
     // ================================================================
     var SEARCH_HINTS = [
-      '三轮车', 'standby', '吉他课', '音箱', '灯光', '彩排',
-      '小剧场', '审批', '换届', '百团', '拨片', '海报',
-      '接电', '拍摄', '鼓手', '曲目', '预约表', '路演'
+      'standby', '吉他课', '音箱', '鼓手', '预约表', '微信', '乐队', '金属'
     ];
 
     function refreshSearchHint() {
@@ -3536,237 +2735,7 @@
 
     // Hash 变化时响应
     window.addEventListener('hashchange', handleHash);
-
-    // ================================================================
-    // 图片点击放大查看（lightbox）
-    // ================================================================
-    (function initLightbox() {
-      var lb = document.createElement('div');
-      lb.className = 'lightbox';
-      lb.innerHTML =
-        '<div class="lightbox-spin"></div>' +
-        '<button class="lightbox-nav prev" type="button" aria-label="上一张">&#8249;</button>' +
-        '<div class="lightbox-stage">' +
-        '  <img class="lightbox-img" src="" alt="">' +
-        '</div>' +
-        '<button class="lightbox-nav next" type="button" aria-label="下一张">&#8250;</button>' +
-        '<div class="lightbox-top">' +
-        '  <span class="lightbox-count"></span>' +
-        '  <button class="lightbox-close" type="button" aria-label="关闭">&times;</button>' +
-        '</div>' +
-        '<div class="lightbox-cap"></div>';
-      document.body.appendChild(lb);
-
-      var img = lb.querySelector('.lightbox-img');
-      var cap = lb.querySelector('.lightbox-cap');
-      var count = lb.querySelector('.lightbox-count');
-      var closeBtn = lb.querySelector('.lightbox-close');
-      var prevBtn = lb.querySelector('.lightbox-nav.prev');
-      var nextBtn = lb.querySelector('.lightbox-nav.next');
-
-      var group = [];      // 当前组（同组图片）
-      var index = 0;       // 当前序号
-      var scale = 1, tx = 0, ty = 0;  // 缩放与平移
-
-      function resetView() {
-        scale = 1; tx = 0; ty = 0;
-        img.style.transform = '';
-      }
-      function applyView() {
-        img.style.transform = 'translate(' + tx + 'px, ' + ty + 'px) scale(' + scale + ')';
-      }
-      function render() {
-        var el = group[index];
-        if (!el) return;
-        resetView();
-        lb.classList.add('loading');
-        var src = el.getAttribute('data-full') || el.src;
-        img.onload = function () { lb.classList.remove('loading'); };
-        img.src = src;
-        img.alt = el.getAttribute('alt') || '';
-        cap.textContent = el.getAttribute('title') || el.getAttribute('alt') || '';
-        count.textContent = group.length > 1 ? (index + 1) + ' / ' + group.length : '';
-        prevBtn.hidden = group.length < 2;
-        nextBtn.hidden = group.length < 2;
-      }
-      function open(el) {
-        // 收集当前"章节"（最近的带 id 的容器）内的所有照片，可循环切换
-        var scope = el.closest(
-          'details[id], .chapter-block[id], .section-block[id], .subsection-block[id], .sub4-block[id]'
-        );
-        group = scope
-          ? Array.prototype.slice.call(scope.querySelectorAll('img.img, .gallery img'))
-          : [el];
-        if (!group.length) group = [el];
-        index = group.indexOf(el);
-        if (index < 0) index = 0;
-        render();
-        lb.classList.add('show');
-        document.body.style.overflow = 'hidden';
-      }
-      function close() {
-        lb.classList.remove('show');
-        document.body.style.overflow = '';
-      }
-      function step(d) {
-        if (group.length < 2) return;
-        index = (index + d + group.length) % group.length;  // 循环切换
-        render();
-      }
-
-      // 打开：点击正文图片 / 画廊缩略图
-      document.addEventListener('click', function (e) {
-        var el = e.target.closest('.img, .gallery img');
-        if (!el || lb.classList.contains('show')) return;
-        open(el);
-      });
-
-      // 缩放：以鼠标/触摸点为中心，保证指针所指内容位置不变
-      // 缩放到指定倍数（px,py 为锚点，即保持该画面位置不动）
-      function zoomTo(px, py, ns) {
-        var rect = lb.getBoundingClientRect();
-        var cx = rect.left + rect.width / 2;   // 视口中心
-        var cy = rect.top + rect.height / 2;
-        var mx = px - cx;                      // 锚点相对中心
-        var my = py - cy;
-        ns = Math.min(5, Math.max(1, ns));
-        if (ns === scale) return;
-        // 保持锚点下的图像点不动：t' = m - s'·(m - t)/s
-        tx = mx - ns * (mx - tx) / scale;
-        ty = my - ns * (my - ty) / scale;
-        scale = ns;
-        clampView();
-        applyView();
-      }
-      function zoomAt(px, py, factor) {
-        zoomTo(px, py, scale * factor);
-      }
-
-      // 平移边界：图片至少覆盖整个视口，可查看每一部分但不会拖丢
-      function clampView() {
-        var vw = lb.clientWidth;
-        var vh = lb.clientHeight;
-        var w = img.clientWidth * scale;
-        var h = img.clientHeight * scale;
-        var maxX = Math.max(0, (w - vw) / 2);
-        var maxY = Math.max(0, (h - vh) / 2);
-        tx = Math.max(-maxX, Math.min(maxX, tx));
-        ty = Math.max(-maxY, Math.min(maxY, ty));
-      }
-
-      // 滚轮缩放（鼠标指针为中心）
-      lb.addEventListener('wheel', function (e) {
-        e.preventDefault();
-        zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.15 : 1 / 1.15);
-      }, { passive: false });
-
-      // ---- 手势统一处理（触摸捏合/滑动 + 鼠标拖拽，Pointer Events）----
-      var pointers = {};            // pointerId -> {x, y}
-      var pinchDist0 = 0;           // 捏合初始两指距离
-      var pinchScale0 = 1;          // 捏合初始 scale
-      var downX = 0, downY = 0;     // 按下起点
-      var dragTx0 = 0, dragTy0 = 0; // 拖动起点 translate
-      var moved = false;            // 本次手势是否发生移动
-      var swipeX = 0;               // 未放大时水平滑动累计
-      var suppressClick = false;    // 手势结束后抑制 click（防误关）
-
-      function pointerCount() {
-        var n = 0;
-        for (var k in pointers) n++;
-        return n;
-      }
-
-      lb.addEventListener('pointerdown', function (e) {
-        if (e.pointerType === 'mouse' && e.button !== 0) return;
-        pointers[e.pointerId] = { x: e.clientX, y: e.clientY };
-        var n = pointerCount();
-        if (n === 1) {
-          downX = e.clientX; downY = e.clientY;
-          dragTx0 = tx; dragTy0 = ty;
-          moved = false; swipeX = 0;
-        } else if (n === 2) {
-          var ids = Object.keys(pointers);
-          var p0 = pointers[ids[0]], p1 = pointers[ids[1]];
-          pinchDist0 = Math.max(1, Math.hypot(p1.x - p0.x, p1.y - p0.y));
-          pinchScale0 = scale;
-        }
-      });
-
-      lb.addEventListener('pointermove', function (e) {
-        var p = pointers[e.pointerId];
-        if (!p) return;
-        p.x = e.clientX; p.y = e.clientY;
-        var n = pointerCount();
-        if (n === 2) {
-          // 双指捏合缩放：以两指中点为锚
-          var ids = Object.keys(pointers);
-          var p0 = pointers[ids[0]], p1 = pointers[ids[1]];
-          var dist = Math.max(1, Math.hypot(p1.x - p0.x, p1.y - p0.y));
-          var midX = (p0.x + p1.x) / 2;
-          var midY = (p0.y + p1.y) / 2;
-          zoomTo(midX, midY, pinchScale0 * dist / pinchDist0);
-          moved = true;
-        } else if (n === 1) {
-          if (Math.abs(e.clientX - downX) + Math.abs(e.clientY - downY) > 8) moved = true;
-          if (scale > 1) {
-            // 放大后：单指拖动平移
-            tx = dragTx0 + (e.clientX - downX);
-            ty = dragTy0 + (e.clientY - downY);
-            clampView();
-            applyView();
-          } else {
-            // 未放大：累计水平滑动（用于左右切图）
-            swipeX = e.clientX - downX;
-          }
-        }
-      });
-
-      function endPointer(e) {
-        if (!pointers[e.pointerId]) return;
-        delete pointers[e.pointerId];
-        var n = pointerCount();
-        if (n === 1) {
-          // 双指变单指：重置拖动基准
-          var ids = Object.keys(pointers);
-          var p0 = pointers[ids[0]];
-          downX = p0.x; downY = p0.y;
-          dragTx0 = tx; dragTy0 = ty;
-        } else if (n === 0) {
-          // 全部抬起：若未放大且水平滑动，切换照片
-          if (moved && scale <= 1 && Math.abs(swipeX) > 60) {
-            suppressClick = true;
-            step(swipeX < 0 ? 1 : -1);
-          } else if (moved) {
-            suppressClick = true;   // 拖动过，不当作点击关闭
-          }
-          moved = false;
-        }
-      }
-      lb.addEventListener('pointerup', endPointer);
-      lb.addEventListener('pointercancel', endPointer);
-
-      // 关闭：点背景 / 关闭按钮 / Esc
-      lb.addEventListener('click', function (e) {
-        if (suppressClick) { suppressClick = false; return; }
-        if (e.target === lb || e.target === lb.querySelector('.lightbox-stage')) close();
-      });
-      closeBtn.addEventListener('click', close);
-      prevBtn.addEventListener('click', function () { step(-1); });
-      nextBtn.addEventListener('click', function () { step(1); });
-      document.addEventListener('keydown', function (e) {
-        if (!lb.classList.contains('show')) return;
-        if (e.key === 'Escape') close();
-        else if (e.key === 'ArrowLeft') step(-1);
-        else if (e.key === 'ArrowRight') step(1);
-      });
-
-      // 双击：放大 2x / 还原
-      img.addEventListener('dblclick', function (e) {
-        e.preventDefault();
-        if (scale > 1) resetView();
-        else zoomAt(e.clientX, e.clientY, 2);
-      });
-    })();
   </script>
+  <script src="assets/js/lightbox.js"></script>
 </body>
 </html>
