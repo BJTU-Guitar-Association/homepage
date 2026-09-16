@@ -90,7 +90,8 @@
     var cy = rect.top + rect.height / 2;
     var mx = px - cx;                      // 锚点相对中心
     var my = py - cy;
-    ns = Math.min(5, Math.max(1, ns));
+    // 缩放范围 0.3x ~ 5x：允许缩到比原图更小，方便退远看整体构图
+    ns = Math.min(5, Math.max(0.3, ns));
     if (ns === scale) return;
     // 保持锚点下的图像点不动：t' = m - s'·(m - t)/s
     tx = mx - ns * (mx - tx) / scale;
